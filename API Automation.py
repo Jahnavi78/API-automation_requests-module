@@ -67,7 +67,7 @@ def put_request(user_id):
     assert json_data["userId"] == user_id
     assert json_data["completed"] == False
     print("PUT request is done")
-    print("==================================================")
+    print("===================================================")
 
 def delete_request(user_id):
     url= base_url +f"/todos/{user_id}"
